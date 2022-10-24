@@ -1,0 +1,10 @@
+name: taurus
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - pytango
+  - lxml
+  - taurus_pyqtgraph

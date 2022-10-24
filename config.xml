@@ -1,0 +1,14 @@
+<taurusgui_config>
+  <PanelDescriptions>
+    <PanelDescription>
+        <name>Example</name>
+        <classname>TaurusForm</classname>
+        <modulename/>
+        <widgetname/>
+        <floating>False</floating>
+        <sharedDataWrite/>
+        <sharedDataRead/>
+        <model/>
+    </PanelDescription>
+  </PanelDescriptions>
+</taurusgui_config>
