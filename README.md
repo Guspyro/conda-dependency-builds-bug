@@ -3,10 +3,10 @@ Example code to reproduce a bug in conda. It installs different builds depending
 
 ## Steps to reproduce
 
-1. Install both environments with _conda install -n "environmentname" --file "environmentfile"_.
-2. Activate the environments with _conda activate "environmentname"_
-3. Use _conda list_ to see the packages installed. You will see that the package lxml uses 2 different builds: __py37h540881e_3__ for the environmentcorrect.yml and __py37h540881e_2__ for the environmentincorrect.yml.
-4. Run _python3 test.py_ in each environment to see the outputs. They should be:
+1. Install both environments with `conda env create --file <environmentfile>`.
+2. Activate the environments with `conda activate <environmentname>`
+3. Use `conda list` to see the packages installed. You will see that the package lxml uses 2 different builds: __py37h540881e_3__ for the `environmentcorrect.yml` and __py37h540881e_2__ for the `environmentincorrect.yml`.
+4. Run `python3 test.py` in each environment to see the outputs. They should be:
 
 <table>
 <tr>

@@ -1,4 +1,4 @@
-name: taurus
+name: lxml_correct
 channels:
   - conda-forge
   - defaults
